@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/fundo-figma.png); /* Caminho da imagem */
+    background-size: 100% 100%; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    font-family: Arial, sans-serif; /* Define a fonte do texto como Arial, com fallback para qualquer fonte sans-serif */
+    display: flex; /* Aplica o modelo de layout flexível ao elemento */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente dentro do elemento */
+    align-items: center; /* Centraliza o conteúdo verticalmente dentro do elemento */
+    height: 100vh; /* Define a altura do elemento como 100% da altura da tela (viewport height) */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do elemento */
+}
+
+.container {
+    /* display: flex;
+    align-items: center; */
+    justify-content: center;
+    /* background-color: #333; */
+    height: 370px;
+    width: 350px;
+}
+
+.login-box {
+    background:#083A69;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+button {
+    width: 40%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 10px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+    color: #fff;
+}
